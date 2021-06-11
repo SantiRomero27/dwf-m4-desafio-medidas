@@ -29,9 +29,16 @@ body {
 }
 
 .header-square {
-    height: 6rem;
-    width: 9rem;
+    height: 55%;
+    width: 30%;
     background-color: black;
+}
+
+@media (min-width: 667px) {
+    .header-square {
+        height: 60%;
+        width: 15%;
+    }
 }
 
 .page-section {
